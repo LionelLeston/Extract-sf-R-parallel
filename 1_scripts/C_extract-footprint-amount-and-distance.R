@@ -95,6 +95,11 @@ areadist<-function(pointfile, polyfile, maxdist){
     p.150<-st_intersection(polyfile.y, b150)
     p.150$Recalc_Area<-st_area(p.150)#recalculate areas of clipped polygons
     area.150<-ifelse((nrow(p.150)==0), 0, sum(p.150$Recalc_Area))
+
+    b300<-st_buffer(pkey.sf.i,300)#1 square kilometre
+    p.300<-st_intersection(polyfile.y, b300)
+    p.300$Recalc_Area<-st_area(p.300)#recalculate areas of clipped polygons
+    area.300<-ifelse((nrow(p.300)==0), 0, sum(p.300$Recalc_Area))
     
     b565<-st_buffer(pkey.sf.i,565)#1 square kilometre
     p.565<-st_intersection(polyfile.y, b565)
