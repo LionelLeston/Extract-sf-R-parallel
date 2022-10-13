@@ -3,3 +3,10 @@
 *.RData
 .Ruserdata
 *.csv
+*.shx
+*.shp
+*.sbx
+*.sbn
+*.prj
+*.dbf
+*.cpg
