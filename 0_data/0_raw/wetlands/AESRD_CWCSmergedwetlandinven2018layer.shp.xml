@@ -1,0 +1,714 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+	<idinfo>
+		<citation>
+			<citeinfo>
+				<origin>Alberta Environment and Sustainable Resource Development, Government of Alberta</origin>
+				<pubdate>20120501</pubdate>
+				<title>Alberta CWCS Merged Wetland Inventory</title>
+				<geoform Sync="TRUE">vector digital data</geoform>
+				<pubinfo>
+					<pubplace>Edmonton, Alberta</pubplace>
+					<publish>Alberta Environment and Sustainable Resource Development, Government of Alberta</publish>
+				</pubinfo>
+				<onlink Sync="TRUE">\\PAN-SE\abmi_2012\wetland_from_AESRD\ABMI\ABMI_ESRD_CWCSMergedWetlandInventory.gdb</onlink><ftname Sync="TRUE">AESRD_CWCSMergedWetlandInventory_lessGP_PMB</ftname></citeinfo>
+		</citation>
+		<descript>
+			<abstract>This dataset depicts wetlands within the province of Alberta, Canada for the period 1998 to 2012 classified to the Canadian Wetland Classification System (CWCS) class level (marsh, open water, bog, fen and swamp).  This layer is a merged product of component wetland inventories with differing specifications on how wetlands were captured and classified.  Because some of the component wetland inventories used different wetland classification systems the inventories were reclassified to the CWCS.
+
+
+
+The component wetland inventory systems are described below.
+
+Ducks Unlimited Canada (DUC)-Boreal Enhanced Wetland Classification System (EWC):  Landsat 5 and 7 ETM imagery were used to capture and classify wetlands to DUC's EWC system.  The classification system contains a class level, analogous to the CWCS class level, which is subdivided to the EWC minor level which contains information on the dominant vegetation.  An accuracy assessment derived from field sites is available for all inventories.  The minimum mapping unit of the inventory is 1 ha.  Data is distributed by Ducks Unlimited Canada - Western Boreal Office as described in the Contact/Distribution sections of the metadata.
+
+Landsat-Canadian Wetland Classification System (CWCS):  Landsat 7 ETM imagery was used to capture and classify wetlands to the CWCS class level.  The minimum mapping unit of the inventory is 1 ha.  Data is distributed by Environment and Sustainable Resource Development as described in the Contact/Distribution sections of the metadata.
+
+SPOT (Systeme Pour l'Observation de la Terre) Grassland Vegetation Inventory (GVI) Lentic Classification:  SPOT 5 MS imagery was used to capture and classify wetlands to Alberta Sustainable Resource Developments (ASRD) GVI standard.  The GVI classifies lentic wetlands using a modified Stewart and Kantrud approach which identifies wetland site types and permanence.  The GVI lentic wetlands were reclassified to the CWCS major level.  The minimum mapping unit of the inventory is 0.2 ha.  Data is distributed by Environment and Sustainable Resource Development.  Data is distributed by Environment and Sustainable Resource Development as described in the Contact/Distribution sections of the metadata.
+
+High-Resolution:  1:15,000 to 1:30,000 air photography was used to capture and classify wetlands to a DUC custom system and the CWCS.  The DUC custom wetlands were reclassified to the CWCS major level using a model developed by DUC.  The minimum mapping unit of the inventory is 0.04 ha.  Data is distributed by Environment and Sustainable Resource Development as described in the Contact/Distribution sections of the metadata.</abstract>
+			<purpose>To depict the current coverage of wetlands within Alberta at the regional and provincial scales using the best available information.</purpose>
+			<supplinf>This dataset is an amalgamation of wetland inventories captured at different times using different inventory systems and as a result, has limitations in terms of image resolution and analysis above the original project boundary.  Care should be taken when comparing or using portions of this data composed of wetland features captured using different inventory methods.  As noted in the metadata, the resolution quality of the SPOT data is coarse, the boreal EWC data, medium and the high resolution inventory has fine resolution.  The wetland inventory dataset is not intended to replace site specific or local information to describe wetland type, area and location. For questions related to planning or operations near wetlands, users of this information are directed to contact the appropriate Alberta Environment and Water or Alberta Sustainable Resource Development regional office.</supplinf>
+			<langdata Sync="TRUE">en</langdata></descript>
+		<timeperd>
+			<timeinfo>
+				<rngdates>
+					<begdate>20020601</begdate>
+					<begtime>unknown</begtime>
+					<enddate>20090831</enddate>
+					<endtime>unknown</endtime>
+				</rngdates>
+			</timeinfo>
+			<current>ground condition</current>
+		</timeperd>
+		<status>
+			<progress>Complete</progress>
+			<update>As needed</update>
+		</status>
+		<spdom>
+			<bounding>
+				<westbc Sync="TRUE">-120.900505</westbc>
+				<eastbc Sync="TRUE">-108.459645</eastbc>
+				<northbc Sync="TRUE">60.138739</northbc>
+				<southbc Sync="TRUE">48.900848</southbc>
+			</bounding>
+			<lboundng><leftbc Sync="TRUE">171375.252900</leftbc><rightbc Sync="TRUE">864519.999700</rightbc><bottombc Sync="TRUE">5426210.000000</bottombc><topbc Sync="TRUE">6664194.608700</topbc></lboundng></spdom>
+		<keywords>
+			<theme>
+				<themekt>none</themekt>
+				<themekey>wetland</themekey>
+				<themekey>wetlands</themekey>
+				<themekey>lentic</themekey>
+				<themekey>marsh</themekey>
+				<themekey>bog</themekey>
+				<themekey>fen</themekey>
+				<themekey>open water</themekey>
+				<themekey>swamp</themekey>
+			</theme>
+			<theme>
+				<themekt>ISO 19115 Topic Category</themekt>
+				<themekey>biota</themekey>
+				<themekey>environment</themekey>
+				<themekey>imageryBaseMapsEarthCover</themekey>
+			</theme>
+			<place>
+				<placekt>none</placekt>
+				<placekey>Northern Hemisphere</placekey>
+				<placekey>Western Hemisphere</placekey>
+				<placekey>Mid-latitude</placekey>
+				<placekey>North America</placekey>
+				<placekey>Canada</placekey>
+				<placekey>Canada &gt; Alberta</placekey>
+				<placekey>Alberta</placekey>
+			</place>
+			<place>
+				<placekt>Alberta Geographic Names (GNS)</placekt>
+				<placekey>Alberta</placekey>
+			</place>
+		</keywords>
+		<accconst>Access to this data is unrestricted.</accconst>
+		<useconst>Redistribution of this data in whole or in part, whether alone or as part of a value added product, is not permitted without the prior written authorisation of Alberta Environment and Sustainable Resource Development. Use of the data shall not be construed as an endorsement by the 'Government of Alberta'.</useconst>
+		<ptcontac>
+			<cntinfo>
+				<cntorgp>
+					<cntorg>Alberta Environment and Sustainable Resource Development, Government of Alberta</cntorg>
+				</cntorgp>
+				<cntpos>Alberta Environment and Water Information Centre</cntpos>
+				<cntvoice>7804272700</cntvoice>
+				<cntfax>7804224086</cntfax>
+				<cntemail>env.infocent@gov.ab.ca</cntemail>
+				<hours>0815 to 1630 Monday to Friday</hours>
+				<cntinst>For Ducks Unlimited Canada Boreal Enhanced Wetland Inventories please contact Al Richard:
+
+Email: a_richard@ducks.ca
+Phone: 7804892002</cntinst>
+				<cntaddr><address>9820 - 106 Street</address><addrtype>mailing address</addrtype><address>Eighth Floor, Oxbridge Place</address><city>Edmonton</city><state>Alberta</state><postal>T5K2J6</postal><country>Canada</country></cntaddr></cntinfo>
+		</ptcontac>
+		<secinfo>
+			<secsys>Government of Alberta Security Classification Guidelines: http://www.im.gov.ab.ca/publications/pdf/InfoSecurityClassification.pdf</secsys>
+			<secclass>Protected</secclass>
+		</secinfo>
+		<native Sync="TRUE">Microsoft Windows 2000 Version 5.2 (Build 3790) Service Pack 2; ESRI ArcCatalog 9.3.1.3000</native>
+		<natvform Sync="TRUE">File Geodatabase Feature Class</natvform></idinfo>
+	<dataqual>
+		<attracc>
+			<attraccr>Classification accuracies were determined for the DUC - Boreal, SPOT and Landsat inventory systems.  Reports exist for each system and can be requested by contacting Dave Junor (dave.junor@gov.ab.ca).  When requesting a report please cite the inventory system type and extent.</attraccr>
+			<qattracc>
+				<attraccv>See Documentation</attraccv>
+				<attracce>Classification accuracies for the DUC - Boreal, SPOT and Landsat inventories are available.</attracce>
+			</qattracc>
+		</attracc>
+		<posacc>
+			<horizpa>
+				<horizpar>Spatial Accuracy of Inventory Systems</horizpar>
+				<qhorizpa>
+					<horizpav>20 meters from the ground control data at 90% confidence.</horizpav>
+					<horizpae>SPOT: Spatial accuracy of the SPOT5 image data is assessed by IUNCTUS Geomatics, the contracting company responsible for the delivery of SPOT5 image data.  Technicians are trained to quantify the RMSE based on control data.  The technicians also visually ensure that imagery align with ground control datasets used and other overlapping imagery.</horizpae>
+				</qhorizpa>
+				<qhorizpa>
+					<horizpav>10m</horizpav>
+					<horizpae>DUC - Boreal and Landsat: Individual satellite imagery was orthorectified to USGS Level 1 standards.  Using the methodology from the U.S. Federal Geospatial Data Committee (FGDC) National Standard for Spatial Data Accuracy (NSSDA) the positional error for each image was determined and the average across all images reported.</horizpae>
+				</qhorizpa>
+				<qhorizpa>
+					<horizpav>5m</horizpav>
+					<horizpae>Hi - Resolution: Wetland boundaries digitized from 1:15,000 to 1:30,000 scale orthophotos.</horizpae>
+				</qhorizpa>
+			</horizpa>
+			<vertacc>
+				<vertaccr>Not Applicable</vertaccr>
+				<qvertpa>
+					<vertaccv>Not Applicable</vertaccv>
+					<vertacce>Not Applicable</vertacce>
+				</qvertpa>
+			</vertacc>
+		</posacc>
+		<lineage>
+			<srcinfo>
+				<srccite>
+					<citeinfo>
+						<origin>U.S. Geological Survey, Earth Resources Observation and Science (EROS</origin>
+						<pubdate>20040101 to 20090101</pubdate>
+						<title>Landsat 5 TM</title>
+						<pubinfo>
+							<pubplace>Sioux Falls</pubplace>
+							<publish>USGS, Earth Resources Observation and Science</publish>
+						</pubinfo>
+					</citeinfo>
+				</srccite>
+				<srcscale>30m x 30m</srcscale>
+				<typesrc>disc</typesrc>
+				<srctime>
+					<timeinfo>
+						<rngdates>
+							<begdate>20040101</begdate>
+							<enddate>20090101</enddate>
+						</rngdates>
+					</timeinfo>
+					<srccurr>ground condition</srccurr>
+				</srctime>
+				<srccitea>Landsat 5 TM</srccitea>
+				<srccontr>Remotely sensed imagery used for delineating and classifying wetlands.</srccontr>
+			</srcinfo>
+			<srcinfo>
+				<srccite>
+					<citeinfo>
+						<origin>U.S. Geological Survey (USGS), Earth Resources Observation and Science (EROS)</origin>
+						<pubdate>20040101 to 20090101</pubdate>
+						<title>Landsat 7 ETM+</title>
+						<pubinfo>
+							<pubplace>Sioux Falls</pubplace>
+							<publish>USGS, Earth Resources Observation and Science</publish>
+						</pubinfo>
+					</citeinfo>
+				</srccite>
+				<srcscale>30m x 30m</srcscale>
+				<typesrc>disc</typesrc>
+				<srctime>
+					<timeinfo>
+						<rngdates>
+							<begdate>20040101</begdate>
+							<enddate>20090101</enddate>
+						</rngdates>
+					</timeinfo>
+					<srccurr>ground condition</srccurr>
+				</srctime>
+				<srccitea>Landsat 7 ETM+</srccitea>
+				<srccontr>Remotely sensed imagery used for delineating and classifying wetlands.</srccontr>
+			</srcinfo>
+			<srcinfo>
+				<srccite>
+					<citeinfo>
+						<origin>IUNCTUS Geomatics</origin>
+						<pubdate>20040101 to 20090101</pubdate>
+						<title>SPOT 5</title>
+						<pubinfo>
+							<pubplace>Lethbridge, Alberta</pubplace>
+							<publish>Iunctus Geomatics</publish>
+						</pubinfo>
+					</citeinfo>
+				</srccite>
+				<srcscale>10m x 10m</srcscale>
+				<typesrc>disc</typesrc>
+				<srccitea>SPOT 5</srccitea>
+				<srccontr>Remotely sensed imagery used for delineating and classifying wetlands.</srccontr>
+			</srcinfo>
+			<srcinfo>
+				<srccite>
+					<citeinfo>
+						<origin>Several different sources were used to acquire air photography.</origin>
+						<pubdate>20040101 to 20090101</pubdate>
+						<title>Orthophotos</title>
+						<pubinfo>
+							<pubplace>Not Applicable</pubplace>
+							<publish>Not Applicable</publish>
+						</pubinfo>
+					</citeinfo>
+				</srccite>
+				<srcscale>1:15,000 to 1:30,000</srcscale>
+				<typesrc>disc</typesrc>
+				<srctime>
+					<timeinfo>
+						<rngdates>
+							<begdate>20040101</begdate>
+							<enddate>20090101</enddate>
+						</rngdates>
+					</timeinfo>
+					<srccurr>ground condition</srccurr>
+				</srctime>
+				<srccitea>Orthophotos</srccitea>
+				<srccontr>Air photography used for delineating and classifying wetlands.</srccontr>
+			</srcinfo>
+			<procstep>
+				<procdesc>DUC - Boreal  Landsat imagery was classified to the CWCS or EWC.</procdesc>
+				<procdate>Unknown</procdate>
+				<proccont>
+					<cntinfo>
+						<cntperp>
+							<cntper>Kevin Smith</cntper>
+							<cntorg>Ducks Unlimited Canada</cntorg>
+						</cntperp>
+						<cntvoice>7804898110</cntvoice>
+					</cntinfo>
+				</proccont>
+			</procstep>
+			<procstep>
+				<procdesc>SPOT - South  SPOT imagery was classified to the Grassland Vegetation Inventory (GVI) system.</procdesc>
+				<procdate>Unknown</procdate>
+				<proccont>
+					<cntinfo>
+						<cntorgp>
+							<cntorg>Alberta Terrestrial Imaging Center</cntorg>
+						</cntorgp>
+						<cntvoice>4033179188</cntvoice>
+					</cntinfo>
+				</proccont>
+			</procstep>
+			<procstep>
+				<procdesc>SPOT - Central  SPOT imagery was classified to the Grassland Vegetation Inventory (GVI) system.</procdesc>
+				<procdate>Unknown</procdate>
+				<proccont>
+					<cntinfo>
+						<cntorgp>
+							<cntorg>Silvatech</cntorg>
+						</cntorgp>
+						<cntvoice>4032624022</cntvoice>
+					</cntinfo>
+				</proccont>
+			</procstep>
+			<procstep>
+				<procdesc>Landsat imagery was classified to the CWCS.</procdesc>
+				<procdate>Unknown</procdate>
+				<proccont>
+					<cntinfo>
+						<cntorgp>
+							<cntorg>Alberta Terrestrial Imaging Center</cntorg>
+						</cntorgp>
+						<cntvoice>4033179188</cntvoice>
+					</cntinfo>
+				</proccont>
+			</procstep>
+			<procstep>
+				<procdesc>High - Resolution  Orthophotos were acquired and the wetlands digitized and classified.</procdesc>
+				<procdate>Unknown</procdate>
+				<proccont>
+					<cntinfo>
+						<cntperp>
+							<cntper>Lyle Boychuk</cntper>
+							<cntorg>Ducks Unlimited Canada</cntorg>
+						</cntperp>
+						<cntvoice>3063592209</cntvoice>
+					</cntinfo>
+				</proccont>
+			</procstep>
+			<procstep>
+				<procdesc>Wetland Inventories converted to vector and merged into a single layer.</procdesc>
+				<procdate>20120101</procdate>
+				<proccont>
+					<cntinfo>
+						<cntperp>
+							<cntper>Dave Junor</cntper>
+							<cntorg>Alberta Environment and Sustainable Resource Development, Government of Alberta</cntorg>
+						</cntperp>
+						<cntpos>Senior GIS Analyst</cntpos>
+						<cntvoice>7804225462</cntvoice>
+						<cntfax>7804274347</cntfax>
+						<cntemail>dave.junor@gov.ab.ca</cntemail>
+					</cntinfo>
+				</proccont>
+			</procstep>
+			<procstep>
+				<procdesc>Spot and the High - Resolution wetland inventories were reclassified to the CWCS.</procdesc>
+				<procdate>20120101</procdate>
+				<proccont>
+					<cntinfo>
+						<cntperp>
+							<cntper>Dave Junor</cntper>
+							<cntorg>Alberta Environment and Sustainable Resource Development, Government of Alberta</cntorg>
+						</cntperp>
+						<cntpos>Senior GIS Analyst</cntpos>
+						<cntvoice>7804225462</cntvoice>
+						<cntfax>7804274347</cntfax>
+						<cntemail>dave.junor@gov.ab.ca</cntemail>
+					</cntinfo>
+				</proccont>
+			</procstep>
+			<procstep>
+				<procdesc>Metadata imported.</procdesc>
+				<srcused>T:\GeoDiscover_Alberta\GDA_Data_Public_Release\01_In_Progress\WetlandProjectInventories\WetlandInventoryMetadata_Final\AlbertaCWCSMergedWetlandInventory.xml</srcused>
+				<procdate>20120606</procdate>
+				<proctime>06294200</proctime>
+			</procstep>
+			<procstep><procdesc Sync="TRUE">Metadata imported.</procdesc><srcused Sync="TRUE">T:\GeoDiscover_Alberta\GDA_Data_Public_Release\01_In_Progress\WetlandProjectInventories\WetlandInventoryMetadata_Final\AlbertaCWCSMergedWetlandInventory.xml</srcused><procdate Sync="TRUE">20120621</procdate><proctime Sync="TRUE">09294900</proctime></procstep><procstep><procdesc Sync="TRUE">Dataset copied.</procdesc><srcused Sync="TRUE">\\edmoxpfs01\gio\KIT\02_Data\03_Water\WETLAND_INVENTORY\PROVINCIAL_WETLAND_INVENTORY\AlbertaCWCSMergedWetlandInventory.gdb</srcused><procdate Sync="TRUE">20120625</procdate><proctime Sync="TRUE">11365000</proctime></procstep><procstep><procdesc Sync="TRUE">Dataset copied.</procdesc><srcused Sync="TRUE">\\D-272456\E\GIS\PROJECTS\WATERforLIFE\WETLAND_INVENTORY\WETLAND_INVENTORY_DATA\AB_CWCS_WETLAND_INVENTORY\ABCWCSWetlandInventory_FINAL_06252012.gdb</srcused><procdate Sync="TRUE">20120709</procdate><proctime Sync="TRUE">07522500</proctime></procstep></lineage>
+	</dataqual>
+	<spdoinfo>
+		<direct Sync="TRUE">Vector</direct>
+		<ptvctinf><esriterm Name="AESRD_CWCSMergedWetlandInven"><efeatyp Sync="TRUE">Simple</efeatyp><efeageom code="4" Sync="TRUE"></efeageom><esritopo Sync="TRUE">FALSE</esritopo><efeacnt Sync="TRUE">0</efeacnt><spindex Sync="TRUE">TRUE</spindex><linrefer Sync="TRUE">FALSE</linrefer></esriterm></ptvctinf></spdoinfo>
+	<spref>
+		<horizsys>
+			<planar>
+				<planci>
+					<plance Sync="TRUE">coordinate pair</plance>
+					<coordrep>
+						<absres Sync="TRUE">0.000100</absres>
+						<ordres Sync="TRUE">0.000100</ordres>
+					</coordrep>
+					<plandu Sync="TRUE">meters</plandu>
+				</planci>
+			</planar>
+			<geodetic>
+				<horizdn Sync="TRUE">North American Datum of 1983</horizdn>
+				<ellips Sync="TRUE">Geodetic Reference System 80</ellips>
+				<semiaxis Sync="TRUE">6378137.000000</semiaxis>
+				<denflat Sync="TRUE">298.257222</denflat>
+			</geodetic>
+			<cordsysn><geogcsn Sync="TRUE">GCS_North_American_1983</geogcsn><projcsn Sync="TRUE">NAD_1983_10TM_AEP_Forest</projcsn></cordsysn></horizsys>
+		<vertdef>
+			<altsys>
+				<altres Sync="TRUE">0.000100</altres>
+				<altenc Sync="TRUE">Explicit elevation coordinate included with horizontal coordinates</altenc>
+			</altsys>
+		</vertdef>
+	</spref>
+	<eainfo>
+		<detailed Name="AESRD_CWCSMergedWetlandInven">
+			<enttyp>
+				<enttypl Sync="TRUE">AESRD_CWCSMergedWetlandInven</enttypl>
+				<enttypt Sync="TRUE">Feature Class</enttypt><enttypc Sync="TRUE">0</enttypc></enttyp>
+			<attr>
+				<attrlabl>OBJECTID</attrlabl>
+				<attrdef>Internal feature number.</attrdef>
+				<attrdefs>ESRI</attrdefs>
+				<attrdomv>
+					<udom>Sequential unique whole numbers that are automatically generated.</udom>
+				</attrdomv>
+				<attalias Sync="TRUE">OBJECTID</attalias><attrtype Sync="TRUE">OID</attrtype><attwidth Sync="TRUE">4</attwidth><atprecis Sync="TRUE">0</atprecis><attscale Sync="TRUE">0</attscale></attr>
+			<attr>
+				<attrlabl>Shape</attrlabl>
+				<attrdef>Feature geometry.</attrdef>
+				<attrdefs>ESRI</attrdefs>
+				<attrdomv>
+					<udom>Coordinates defining the features.</udom>
+				</attrdomv>
+				<attalias Sync="TRUE">Shape</attalias><attrtype Sync="TRUE">Geometry</attrtype><attwidth Sync="TRUE">0</attwidth><atprecis Sync="TRUE">0</atprecis><attscale Sync="TRUE">0</attscale></attr>
+			<attr>
+				<attrlabl>CWCS_Class</attrlabl>
+				<attrdef>Canadian Wetland Classification System Class</attrdef>
+				<attrdefs>National Wetlands Working Group 1997</attrdefs>
+				<attrdomv>
+					<edom>
+						<edomv>Bog</edomv>
+						<edomvd>Peat-covered wetlands (peatlands), in which the vegetation shows the effects of a high water table and a general lack of nutrients.  The bog surface is often raised relative to the surrounding landscape and isolated from mineralized soil waters.  The surface waters of bogs are strongly acid and the upper peat layers are generally nutrient poor.  At least 40cm of peat are present.  The plant community is dominated by cushion-forming Sphagnum mosses (peat mosses), ericaceous shrubs and black spruce trees.</edomvd>
+						<edomvds>National Wetlands Working Group. 1997. The Canadian Wetland Classification System, 2nd Edition. Warner, B.G. and C.D.A. Rubec (eds.), Wetlands Research Centre, University of Waterloo, Waterloo, ON, Canada. 68 p.</edomvds>
+					</edom>
+					<edom>
+						<edomv>Fen</edomv>
+						<edomvd>Peatlands characterized by a high water table, but with very slow internal drainage by seepage. Similar to bogs, the surface water in fens is also generally nutrient poor and the peat layer is at least 40 cm thick. The vegetation in fens usually reflects the water quality and quantity available, resulting in three basic types: graminoid fens without trees or shrubs, shrub fens, and treed fens. Dominant plants include black spruce, tamarack, sedges, grasses, and various mosses.</edomvd>
+						<edomvds>National Wetlands Working Group. 1997. The Canadian Wetland Classification System, 2nd Edition. Warner, B.G. and C.D.A. Rubec (eds.), Wetlands Research Centre, University of Waterloo, Waterloo, ON, Canada. 68 p.</edomvds>
+					</edom>
+					<edom>
+						<edomv>Marsh</edomv>
+						<edomvd>Wetlands that are periodically inundated by standing or slowly moving water and hence are rich in nutrients. Marshes are mainly wet, mineral-soil areas, but shallow, well-decomposed peat may be present. Marshes are subject to a gravitational water table, but water remains within the rooting zone of plants for most of the growing season. They are characterized by an emergent vegetation of reeds, rushes or sedges and the absence of woody vegetation.</edomvd>
+						<edomvds>National Wetlands Working Group. 1997. The Canadian Wetland Classification System, 2nd Edition. Warner, B.G. and C.D.A. Rubec (eds.), Wetlands Research Centre, University of Waterloo, Waterloo, ON, Canada. 68 p.</edomvds>
+					</edom>
+					<edom>
+						<edomv>Swamp</edomv>
+						<edomvd>Wetlands where standing or gently moving waters occur seasonally or persist for long periods, leaving the subsurface continuously waterlogged. The water may also be present as a subsurface flow of mineralized water. The water table may drop seasonally below the rooting zone of the vegetation, creating aerated conditions at the surface. Their substrate consists of mixtures of mineral and organic materials, and peat deposited may be present. The vegetation may consist of dense coniferous or deciduous forest, or tall shrub thickets.</edomvd>
+						<edomvds>National Wetlands Working Group. 1997. The Canadian Wetland Classification System, 2nd Edition. Warner, B.G. and C.D.A. Rubec (eds.), Wetlands Research Centre, University of Waterloo, Waterloo, ON, Canada. 68 p.</edomvds>
+					</edom>
+					<edom>
+						<edomv>Open Water</edomv>
+						<edomvd>Known as ponds or sloughs, are relatively small bodies of standing water, representing a transition stage between lakes and marshes. The surface waters impart an open aspect, free of emergent vegetation, but floating, rooted, aquatic macrophytes may be present. The depth of water is usually less than 2 m in mid-summer.</edomvd>
+						<edomvds>National Wetlands Working Group. 1997. The Canadian Wetland Classification System, 2nd Edition. Warner, B.G. and C.D.A. Rubec (eds.), Wetlands Research Centre, University of Waterloo, Waterloo, ON, Canada. 68 p.</edomvds>
+					</edom>
+				</attrdomv>
+				<attalias Sync="TRUE">CWCS_Class</attalias><attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">12</attwidth><atprecis Sync="TRUE">0</atprecis><attscale Sync="TRUE">0</attscale></attr>
+			<attr>
+				<attrlabl>Inv_Sys</attrlabl>
+				<attrdef>The type of imagery and classification system used to produce the wetland inventory</attrdef>
+				<attrdefs>AEW</attrdefs>
+				<attrdomv>
+					<edom>
+						<edomv>Boreal-EWC</edomv>
+						<edomvd>A wetland inventory derived from landsat satellite imagery which classifies wetlands using the DUC Enhanced Wetland Classification System.</edomvd>
+						<edomvds>Ducks Unlimited Canada - Boreal Office</edomvds>
+					</edom>
+				</attrdomv>
+				<attrdomv>
+					<edom>
+						<edomv>SPOT-GVI</edomv>
+						<edomvd>A SPOT derived wetland inventory which uses SRD's GVI system to classify wetlands.</edomvd>
+						<edomvds>Alberta Terrestrial Imaging Centre (ATIC) for southern coverage and Silvatech for central area.</edomvds>
+					</edom>
+				</attrdomv>
+				<attrdomv>
+					<edom>
+						<edomv>Landsat-CWCS</edomv>
+						<edomvd>A landsat derived wetland inventory that uses the Canadian Wetlands Classification System (CWCS) to classify wetlands.</edomvd>
+						<edomvds>Alberta Terrestrial Imaging Centre</edomvds>
+					</edom>
+				</attrdomv>
+				<attrdomv>
+					<edom>
+						<edomv>High-Resolution</edomv>
+						<edomvd>A wetland inventory derived form 1:15,000 to 1:30,000 scale orthophotos, using heads-up digitizing to capture wetlands.</edomvd>
+						<edomvds>Ducks Unlimited Canada</edomvds>
+					</edom>
+				</attrdomv>
+				<attalias Sync="TRUE">Inv_Sys</attalias><attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">15</attwidth><atprecis Sync="TRUE">0</atprecis><attscale Sync="TRUE">0</attscale></attr>
+			<attr>
+				<attrlabl>Extent</attrlabl>
+				<attrdef>The project area within AB for which the wetland inventory was created.</attrdef>
+				<attrdefs>AEW</attrdefs>
+				<attrdomv>
+					<edom>
+						<edomv>ALP</edomv>
+						<edomvd>ALPAC project area</edomvd>
+					</edom>
+				</attrdomv>
+				<attrdomv>
+					<edom>
+						<edomv>BVRR</edomv>
+						<edomvd>Beaver River project area</edomvd>
+					</edom>
+				</attrdomv>
+				<attrdomv>
+					<edom>
+						<edomv>CAM</edomv>
+						<edomvd>Camrose - West project area</edomvd>
+					</edom>
+				</attrdomv>
+				<attrdomv>
+					<edom>
+						<edomv>CW</edomv>
+						<edomvd>Clearwater project area</edomvd>
+					</edom>
+				</attrdomv>
+				<attrdomv>
+					<edom>
+						<edomv>ERS</edomv>
+						<edomvd>Erskine project area</edomvd>
+					</edom>
+				</attrdomv>
+				<attrdomv>
+					<edom>
+						<edomv>GP</edomv>
+						<edomvd>Grande Prairie project area</edomvd>
+					</edom>
+				</attrdomv>
+				<attrdomv>
+					<edom>
+						<edomv>HOL</edomv>
+						<edomvd>Holden - West project area</edomvd>
+					</edom>
+				</attrdomv>
+				<attrdomv>
+					<edom>
+						<edomv>INDHRT</edomv>
+						<edomvd>Industrial Heartland project area</edomvd>
+					</edom>
+				</attrdomv>
+				<attrdomv>
+					<edom>
+						<edomv>IRC</edomv>
+						<edomvd>Iron Creek project area</edomvd>
+					</edom>
+				</attrdomv>
+				<attrdomv>
+					<edom>
+						<edomv>LOU</edomv>
+						<edomvd>Lousana project area</edomvd>
+					</edom>
+				</attrdomv>
+				<attrdomv>
+					<edom>
+						<edomv>LP</edomv>
+						<edomvd>Lower Peace project area</edomvd>
+					</edom>
+				</attrdomv>
+				<attrdomv>
+					<edom>
+						<edomv>MRR</edomv>
+						<edomvd>Milk River Ridge project area</edomvd>
+					</edom>
+				</attrdomv>
+				<attrdomv>
+					<edom>
+						<edomv>PLE</edomv>
+						<edomvd>Pine Lake - East project area</edomvd>
+					</edom>
+				</attrdomv>
+				<attrdomv>
+					<edom>
+						<edomv>PLW</edomv>
+						<edomvd>Pine Lake - West project area</edomvd>
+					</edom>
+				</attrdomv>
+				<attrdomv>
+					<edom>
+						<edomv>PMB</edomv>
+						<edomvd>Pembina project area</edomvd>
+					</edom>
+				</attrdomv>
+				<attrdomv>
+					<edom>
+						<edomv>ROK</edomv>
+						<edomvd>Rockyview project area</edomvd>
+					</edom>
+				</attrdomv>
+				<attrdomv>
+					<edom>
+						<edomv>SPOT_CNTRL</edomv>
+						<edomvd>Spot Central project area</edomvd>
+					</edom>
+				</attrdomv>
+				<attrdomv>
+					<edom>
+						<edomv>SPOT_SOUTH</edomv>
+						<edomvd>SPOT South project area</edomvd>
+					</edom>
+				</attrdomv>
+				<attrdomv>
+					<edom>
+						<edomv>STRTH</edomv>
+						<edomvd>Strathcona project area</edomvd>
+					</edom>
+				</attrdomv>
+				<attrdomv>
+					<edom>
+						<edomv>TOF</edomv>
+						<edomvd>Tofield project area</edomvd>
+					</edom>
+				</attrdomv>
+				<attrdomv>
+					<edom>
+						<edomv>UA</edomv>
+						<edomvd>Upper Athabasca project area</edomvd>
+					</edom>
+				</attrdomv>
+				<attrdomv>
+					<edom>
+						<edomv>UP</edomv>
+						<edomvd>Upper Peace project area</edomvd>
+					</edom>
+				</attrdomv>
+				<attrdomv>
+					<edom>
+						<edomv>VER</edomv>
+						<edomvd>Vermillion project area</edomvd>
+					</edom>
+				</attrdomv>
+				<attrdomv>
+					<edom>
+						<edomv>WET</edomv>
+						<edomvd>Wetaskiwin - East project area</edomvd>
+					</edom>
+				</attrdomv>
+				<attrdomv>
+					<edom>
+						<edomv>WILL</edomv>
+						<edomvd>Willmore project area</edomvd>
+					</edom>
+				</attrdomv>
+				<attalias Sync="TRUE">Extent</attalias><attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">10</attwidth><atprecis Sync="TRUE">0</atprecis><attscale Sync="TRUE">0</attscale></attr>
+			<attr>
+				<attrlabl>Inv_Resolution</attrlabl>
+				<attrdef>The level of detail at which wetlands are classified and boundaries captured.</attrdef>
+				<attrdefs>AEW</attrdefs>
+				<attrdomv>
+					<edom>
+						<edomv>Fine</edomv>
+						<edomvd>Wetlands captured and classified by an interpreter using stereoscopic air photography.  Appropriate sclae of use is at the site level and above.</edomvd>
+						<edomvds>AEW</edomvds>
+					</edom>
+					<edom>
+						<edomv>Medium</edomv>
+						<edomvd>Wetlands captured and classified using the Boreal Plains Enhanced field calibrated methodology.  Appropriate sclae of use is at the watershed basin level and above.  Can be used for some site work but resolution limits detection of smaller wetlands.</edomvd>
+						<edomvds>AEW</edomvds>
+					</edom>
+					<edom>
+						<edomv>Coarse</edomv>
+						<edomvd>Wetlands captured and classified using SPOT and Landsat satellite imagery.  Appropriate scale of use is at the regional planning level.</edomvd>
+						<edomvds>AEW</edomvds>
+					</edom>
+				</attrdomv>
+				<attalias Sync="TRUE">Inv_Resolution</attalias><attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">6</attwidth><atprecis Sync="TRUE">0</atprecis><attscale Sync="TRUE">0</attscale></attr>
+			<attr><attrlabl Sync="TRUE">Area</attrlabl><attalias Sync="TRUE">Area</attalias><attrtype Sync="TRUE">Double</attrtype><attwidth Sync="TRUE">8</attwidth><atprecis Sync="TRUE">0</atprecis><attscale Sync="TRUE">0</attscale></attr><attr>
+				<attrlabl>Shape_Length</attrlabl>
+				<attrdef>Length of feature in internal units.</attrdef>
+				<attrdefs>ESRI</attrdefs>
+				<attrdomv>
+					<udom>Positive real numbers that are automatically generated.</udom>
+				</attrdomv>
+				<attalias Sync="TRUE">Shape_Length</attalias><attrtype Sync="TRUE">Double</attrtype><attwidth Sync="TRUE">8</attwidth><atprecis Sync="TRUE">0</atprecis><attscale Sync="TRUE">0</attscale></attr>
+			<attr>
+				<attrlabl>Shape_Area</attrlabl>
+				<attrdef>Area of feature in internal units squared.</attrdef>
+				<attrdefs>ESRI</attrdefs>
+				<attrdomv>
+					<udom>Positive real numbers that are automatically generated.</udom>
+				</attrdomv>
+				<attalias Sync="TRUE">Shape_Area</attalias><attrtype Sync="TRUE">Double</attrtype><attwidth Sync="TRUE">8</attwidth><atprecis Sync="TRUE">0</atprecis><attscale Sync="TRUE">0</attscale></attr>
+		</detailed>
+	</eainfo>
+	<distinfo>
+		<distrib>
+			<cntinfo>
+				<cntorgp>
+					<cntorg>Alberta Environment and Sustainable Resource Development, Government of Alberta</cntorg>
+				</cntorgp>
+				<cntpos>Alberta Environment and Water Information Centre</cntpos>
+				<cntvoice>7804272700</cntvoice>
+				<cntfax>7804224086</cntfax>
+				<cntemail>env.infocent@gov.ab.ca</cntemail>
+				<hours>0815 to 1630 Monday to Friday</hours>
+			</cntinfo>
+		</distrib>
+		<resdesc>Live Data and Maps</resdesc>
+		<distliab>The user agrees that the information and each part thereof, any formatting or presentation thereof, any storage media on which it is provided, and any communication of any kind, incidental or in relation thereto, is provided to the user by the Minister and the Crown without warranty or representation as to any matter including but not limited to whether the information and storage media is correct, accurate or free from error, defect, danger, or hazard, and whether it is otherwise useful or suitable for any use the user may make of it. The Crown in right of Alberta, the Minister and her employees and agents, shall not be liable for any claims, costs, losses, or damages, including any special, indirect, incidental or consequential loss or damage, which the user may incur or experience as a result of the use or possession of the information or associated storage media.</distliab>
+		<custom>For Ducks Unlimited Canada Boreal Enhanced Wetland Inventories please contact Al Richard:
+Email: a_richard@ducks.ca
+Phone: 7804892002
+
+For all other wetland inventoires please contact Environment and Sustainable Resource Development:
+Email: env.infocent@gov.ab.ca
+Phone: 7804272700
+FAX: 780-422-4086</custom>
+		<techpreq>To utilize digital information, specialized software may be required. Digital information required specialized graphics or GIS software (i.e. ArcInfo, ArcView, ArcGIS, or MicroStation).</techpreq>
+	</distinfo>
+	<metainfo>
+		<metd Sync="TRUE">20120712</metd>
+		<metc>
+			<cntinfo>
+				<cntorgp>
+					<cntorg>Alberta Environment and Sustainable Resource Development, Government of Alberta</cntorg>
+					<cntper>Dave Junor</cntper>
+				</cntorgp>
+				<cntpos>Senior GIS Analyst</cntpos>
+				<cntaddr>
+					<addrtype>mailing address</addrtype>
+					<address>9820 - 106 Street</address>
+					<address>Eighth Floor, Oxbridge Place</address>
+					<city>Edmonton</city>
+					<state>Alberta</state>
+					<postal>T5N1K5</postal>
+					<country>Canada</country>
+				</cntaddr>
+				<cntvoice>7804225462</cntvoice>
+				<cntfax>7804274347</cntfax>
+				<cntemail>dave.junor@gov.ab.ca</cntemail>
+				<hours>0815 to 1630 Monday to Friday</hours>
+			</cntinfo>
+		</metc>
+		<metstdn Sync="TRUE">FGDC Content Standards for Digital Geospatial Metadata</metstdn>
+		<metstdv Sync="TRUE">FGDC-STD-001-1998</metstdv>
+		<mettc Sync="TRUE">local time</mettc>
+		<metextns>
+			<onlink>http://www.esri.com/metadata/esriprof80.html</onlink>
+			<metprof>ESRI Metadata Profile</metprof>
+		</metextns>
+		<metextns>
+			<onlink>http://www.esri.com/metadata/esriprof80.html</onlink>
+			<metprof>ESRI Metadata Profile</metprof>
+		</metextns>
+		<langmeta Sync="TRUE">en</langmeta></metainfo>
+	<Esri><ModDate>20221031</ModDate><ModTime>15494800</ModTime><CreaDate>20221031</CreaDate><CreaTime>16121800</CreaTime><SyncOnce>FALSE</SyncOnce><SyncDate>20221031</SyncDate><SyncTime>15494800</SyncTime><DataProperties><lineage><Process ToolSource="C:\Program Files (x86)\ArcGIS\Desktop10.0\ArcToolbox\Toolboxes\Data Management Tools.tbx\CalculateField" Date="20130301" Time="124225">CalculateField AESRD_CWCSMergedWetlandInventory_lessGP_PMB Area [Shape_Area]/10000 VB #</Process><Process ToolSource="c:\program files (x86)\arcgis\desktop10.8\ArcToolbox\Toolboxes\Analysis Tools.tbx\Clip" Date="20221031" Time="160718">Clip AESRD_CWCSMergedWetlandInventory_lessGP_PMB hf2018extent C:\Users\Cirrus\Documents\ArcGIS\ErinBayne.gdb\AESRD_CWCSMergedWetlandInven #</Process></lineage><itemProps><itemName Sync="TRUE">AESRD_CWCSMergedWetlandInven</itemName><imsContentType Sync="TRUE">002</imsContentType><itemLocation><linkage Sync="TRUE">file://\\FRGU-ARCMAP\C$\Users\Cirrus\Documents\ArcGIS\ErinBayne.gdb</linkage><protocol Sync="TRUE">Local Area Network</protocol></itemLocation></itemProps><coordRef><type Sync="TRUE">Projected</type><geogcsn Sync="TRUE">GCS_North_American_1983</geogcsn><csUnits Sync="TRUE">Linear Unit: Meter (1.000000)</csUnits><projcsn Sync="TRUE">NAD_1983_10TM_AEP_Forest</projcsn><peXml Sync="TRUE">&lt;ProjectedCoordinateSystem xsi:type='typens:ProjectedCoordinateSystem' xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance' xmlns:xs='http://www.w3.org/2001/XMLSchema' xmlns:typens='http://www.esri.com/schemas/ArcGIS/10.8'&gt;&lt;WKT&gt;PROJCS[&amp;quot;NAD_1983_10TM_AEP_Forest&amp;quot;,GEOGCS[&amp;quot;GCS_North_American_1983&amp;quot;,DATUM[&amp;quot;D_North_American_1983&amp;quot;,SPHEROID[&amp;quot;GRS_1980&amp;quot;,6378137.0,298.257222101]],PRIMEM[&amp;quot;Greenwich&amp;quot;,0.0],UNIT[&amp;quot;Degree&amp;quot;,0.0174532925199433]],PROJECTION[&amp;quot;Transverse_Mercator&amp;quot;],PARAMETER[&amp;quot;False_Easting&amp;quot;,500000.0],PARAMETER[&amp;quot;False_Northing&amp;quot;,0.0],PARAMETER[&amp;quot;Central_Meridian&amp;quot;,-115.0],PARAMETER[&amp;quot;Scale_Factor&amp;quot;,0.9992],PARAMETER[&amp;quot;Latitude_Of_Origin&amp;quot;,0.0],UNIT[&amp;quot;Meter&amp;quot;,1.0],AUTHORITY[&amp;quot;EPSG&amp;quot;,3400]]&lt;/WKT&gt;&lt;XOrigin&gt;-5118700&lt;/XOrigin&gt;&lt;YOrigin&gt;-9994100&lt;/YOrigin&gt;&lt;XYScale&gt;10000&lt;/XYScale&gt;&lt;ZOrigin&gt;-100000&lt;/ZOrigin&gt;&lt;ZScale&gt;10000&lt;/ZScale&gt;&lt;MOrigin&gt;-100000&lt;/MOrigin&gt;&lt;MScale&gt;10000&lt;/MScale&gt;&lt;XYTolerance&gt;0.001&lt;/XYTolerance&gt;&lt;ZTolerance&gt;0.001&lt;/ZTolerance&gt;&lt;MTolerance&gt;0.001&lt;/MTolerance&gt;&lt;HighPrecision&gt;true&lt;/HighPrecision&gt;&lt;WKID&gt;102184&lt;/WKID&gt;&lt;LatestWKID&gt;3400&lt;/LatestWKID&gt;&lt;/ProjectedCoordinateSystem&gt;</peXml></coordRef></DataProperties><ArcGISFormat>1.0</ArcGISFormat></Esri><distInfo><distributor><distorTran><onLineSrc><orDesc Sync="TRUE">002</orDesc><linkage Sync="TRUE">file://\\PAN-SE\abmi_2012\wetland_from_AESRD\ABMI\ABMI_ESRD_CWCSMergedWetlandInventory.gdb</linkage><protocol Sync="TRUE">Local Area Network</protocol></onLineSrc></distorTran><distorFormat><formatName Sync="TRUE">File Geodatabase Feature Class</formatName></distorFormat></distributor><distFormat><formatName Sync="TRUE">File Geodatabase Feature Class</formatName></distFormat></distInfo><dataIdInfo><envirDesc Sync="TRUE"> Version 6.2 (Build 9200) ; Esri ArcGIS 10.9.1.28388</envirDesc><dataLang><languageCode Sync="TRUE" value="eng"></languageCode><countryCode value="CAN" Sync="TRUE"></countryCode></dataLang><idCitation><resTitle Sync="TRUE">AESRD_CWCSMergedWetlandInven</resTitle><presForm><PresFormCd value="005" Sync="TRUE"></PresFormCd></presForm></idCitation><dataExt><geoEle><GeoBndBox esriExtentType="native"><westBL Sync="TRUE">171375.2529</westBL><eastBL Sync="TRUE">864519.9997</eastBL><northBL Sync="TRUE">6664194.6087</northBL><southBL Sync="TRUE">5426210</southBL><exTypeCode Sync="TRUE">1</exTypeCode></GeoBndBox></geoEle></dataExt><geoBox esriExtentType="decdegrees"><westBL Sync="TRUE">-120.900505</westBL><eastBL Sync="TRUE">-108.459645</eastBL><northBL Sync="TRUE">60.138739</northBL><southBL Sync="TRUE">48.900848</southBL><exTypeCode Sync="TRUE">1</exTypeCode></geoBox><spatRpType><SpatRepTypCd value="001" Sync="TRUE"></SpatRepTypCd></spatRpType></dataIdInfo><mdLang><languageCode Sync="TRUE" value="eng"></languageCode><countryCode value="CAN" Sync="TRUE"></countryCode></mdLang><mdStanName Sync="TRUE">ISO 19115 Geographic Information - Metadata</mdStanName><mdStanVer Sync="TRUE">DIS_ESRI1.0</mdStanVer><mdChar><CharSetCd Sync="TRUE" value="004"></CharSetCd></mdChar><mdHrLv><ScopeCd Sync="TRUE" value="005"></ScopeCd></mdHrLv><mdHrLvName Sync="TRUE">dataset</mdHrLvName><refSysInfo><RefSystem><refSysID><identCode Sync="TRUE" code="3400">NAD_1983_10TM_AEP_Forest</identCode><idCodeSpace Sync="TRUE">EPSG</idCodeSpace><idVersion Sync="TRUE">6.11(9.3.0.0)</idVersion></refSysID></RefSystem></refSysInfo><spatRepInfo><VectSpatRep><geometObjs Name="AESRD_CWCSMergedWetlandInven"><geoObjTyp><GeoObjTypCd value="002" Sync="TRUE"></GeoObjTypCd></geoObjTyp><geoObjCnt Sync="TRUE">0</geoObjCnt></geometObjs><topLvl><TopoLevCd value="001" Sync="TRUE"></TopoLevCd></topLvl></VectSpatRep></spatRepInfo><mdDateSt Sync="TRUE">20221031</mdDateSt></metadata>
